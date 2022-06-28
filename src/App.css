@@ -3,8 +3,9 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
+  margin-top: -350px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +36,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.label {
+  background-color: lightblue;
+  border-radius: 5px;
+  padding: 5px;
+  color: #444;
+}
+
+.label-green {
+  background-color: green;
+  color: white;
 }
